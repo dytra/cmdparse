@@ -1,4 +1,4 @@
-# cmd-parser
+# cmdparse
 
 A lightweight CLI-style command parser that converts raw input strings into structured `{ command, args, flags }`.
 
@@ -16,7 +16,7 @@ Supports:
 ## 📦 Installation
 
 ```bash
-npm install cmd-parser
+npm install cmdparse
 ```
 
 ---
@@ -24,7 +24,7 @@ npm install cmd-parser
 ## 🚀 Usage
 
 ```ts
-import { parseInput } from 'cmd-parser';
+import { parseInput } from 'cmdparse';
 
 const result = parseInput("ssh 10.0.0.1 -u admin -p secret");
 
