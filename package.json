@@ -2,7 +2,8 @@
   "name": "cmdparse",
   "version": "1.0.3",
   "description": "A lightweight CLI-style command parser that converts raw input strings into structured command, arguments, and flags.",
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
@@ -10,6 +11,7 @@
   "exports": {
     ".": {
       "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
     }
   },
