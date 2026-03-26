@@ -4,6 +4,7 @@
   "description": "A lightweight CLI-style command parser that converts raw input strings into structured command, arguments, and flags.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": ["dist"],
   "exports": {
     ".": {
       "import": "./dist/index.js",
